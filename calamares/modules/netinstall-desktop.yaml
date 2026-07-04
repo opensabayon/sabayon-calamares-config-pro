@@ -1,3 +1,4 @@
+# netinstall-desktop.yaml
 groups:
   - name: "Officially Supported Desktop Environments"
     description: "Desktop environments officially available in Arch repositories."
