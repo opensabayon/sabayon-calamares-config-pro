@@ -1,15 +1,11 @@
 #!/bin/bash
 #set -e
 ##################################################################################################################
-# Author 	: Erik Dubois
-# Website   : https://www.erikdubois.be
-# Website   : https://www.alci.online
-# Website	: https://www.arcolinux.info
-# Website	: https://www.arcolinux.com
-# Website	: https://www.arcolinuxd.com
-# Website	: https://www.arcolinuxb.com
-# Website	: https://www.arcolinuxiso.com
-# Website	: https://www.arcolinuxforum.com
+# Author 	: Namir Taajwar mahmud
+# Website   : https://www.namir.page.gd
+# Website   : https://www.opensabayon.infinityfreeapp.com
+# Website	: https://www.opensabayon.discourse.group
+
 ##################################################################################################################
 #
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
@@ -55,15 +51,15 @@ echo
 
 project=$(basename `pwd`)
 githubdir=$(basename $(dirname "$PWD"))
-githubdir="arconetpro"
+githubdir="opensabayon"
 echo "-----------------------------------------------------------------------------"
 echo "this is project https://github.com/$githubdir/$project"
 echo "-----------------------------------------------------------------------------"
 
 git config --global pull.rebase false
 git config --global push.default simple
-git config --global user.name "arcolinuxz"
-git config --global user.email "arcolinuxinfo@gmail.com"
+git config --global user.name "namir"
+git config --global user.email "namirtaajwarmahmud@gmail.com"
 sudo git config --system core.editor nano
 git remote set-url origin git@github.com-arc:$githubdir/$project
 
