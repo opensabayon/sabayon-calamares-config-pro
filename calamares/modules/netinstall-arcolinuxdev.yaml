@@ -1,11 +1,10 @@
-- name: "ArcoLinux Dev"
-  description: "Software for ArcoLinux developers and betatesters"
+- name: "Sabayon Dev"
+  description: "Software for Sabayon developers and betatesters"
   critical: false
   hidden: false
   selected: false
   expanded: true
-  packages:
-    - arcolinux-powermenu-git
+  packages: 
     - chromium
     - flameshot-git
     - gimp
@@ -21,3 +20,5 @@
     - thunar
     - thunar-archive-plugin
     - thunar-volman
+
+    
